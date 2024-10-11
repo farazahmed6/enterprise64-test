@@ -1,0 +1,44 @@
+<!-- 1. Question 1 (HTML): (10 Points)
+
+a. Create a basic webpage with the following:
+i. A heading that says, "Welcome to My Webpage."
+ii. A paragraph with any text.
+iii. A form with a single text input and a submit button.
+
+2. Question 2 (CSS): (10 points)
+
+a. Style the webpage with:
+i. A centered layout using Flexbox.
+ii. Make the heading bold and set the font size to 24px. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Page</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Welcome to My Webpage</h1>
+
+    <p id="color">This is a simple Webpage Designed by Faraz Ahmed</p>
+
+    <form action="#" method="post">
+      <label for="name">Enter your name:</label>
+      <input type="text" id="name" name="name" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+
+    <script>
+      function changeBackgroundColor() {
+        document.getElementById("color").style.backgroundColor = "lightblue";
+      }
+    </script>
+  </body>
+
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+p {
+  text-align: center;
+  max-width: 600px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+input,
+button {
+  margin: 10px 0;
+}
